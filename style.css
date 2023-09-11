@@ -5,10 +5,10 @@
 }
 
 #banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), #009688),
-    url(images/banner.jpg);
+  background: url(images/WeedingBanner.jpg);
   background-size: cover;
   background-position: center;
+  opacity: 0.6;
   height: 100vh;
 }
 
@@ -21,19 +21,22 @@
 
 .banner-text {
   text-align: center;
-  color: #fff;
+  color: rgb(166, 160, 160);
   padding-top: 180px;
 }
 
 .banner-text h1 {
-  font-size: 130px;
-  font-family: "Kaushan Script", cursive;
+  font-size: 150px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
 }
 
 .banner-text p {
   font-size: 20px;
+  font-weight: 1000;
+  color: rgb(14, 14, 14);
   font-style: italic;
-  font-family: "Kaushan Script", cursive;
+  font-family: "Roboto", sans-serif;
 }
 
 .banner-btn {
@@ -46,8 +49,9 @@
   display: inline-block;
   margin: 0 10px;
   padding: 12px;
-  color: #fff;
+  color: rgb(14, 14, 14);
   border: 0.5px solid;
+  font-weight: 1000;
   position: relative;
   z-index: 1;
   transition: color 0.5s;
@@ -78,7 +82,7 @@
   position: fixed;
   right: -250px;
   top: 0;
-  background: #009688;
+  background: #4f5151;
   z-index: 2;
   transition: 0.5s;
 }
@@ -95,7 +99,7 @@ nav ul li a {
 #menuBtn {
   width: 50px;
   height: 50px;
-  background: #009688;
+  background: #4f5151;
   text-align: center;
   position: fixed;
   right: 30px;
@@ -135,7 +139,7 @@ nav ul li a {
 .title-text p {
   margin: auto;
   font-size: 20px;
-  color: #009688;
+  color: #4f5151;
   font-weight: bold;
   position: relative;
   z-index: 1;
@@ -146,7 +150,7 @@ nav ul li a {
   content: "";
   width: 50px;
   height: 35px;
-  background: linear-gradient(#019587, #fff);
+  background: linear-gradient(#4f5151, #fff);
   position: absolute;
   top: -20px;
   left: 0;
@@ -187,7 +191,7 @@ nav ul li a {
   text-align: left;
   margin-bottom: 10px;
   font-weight: 100;
-  color: #009688;
+  color: #4f5151;
 }
 
 .features-desc {
@@ -202,8 +206,8 @@ nav ul li a {
   font-size: 30px;
   line-height: 50px;
   border-radius: 8px;
-  color: #009688;
-  border: 1px solid #009688;
+  color: #4f5151;
+  border: 1px solid #4f5151;
 }
 
 .feature-text p {
@@ -263,7 +267,7 @@ nav ul li a {
   top: 0;
   border-radius: 7px;
   cursor: pointer;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), #009688);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #4f5151);
   opacity: 0;
   transition: 1s;
 }
@@ -358,12 +362,12 @@ hr {
 }
 .user-info .fa {
   margin-left: 10px;
-  color: #27c027ff;
+  color: #4f5151;
   font-size: 20px;
 }
 
 .user-info small {
-  color: #009688;
+  color: #4f5151;
 }
 
 .testimonial-col:hover {
@@ -409,12 +413,17 @@ hr {
 
 .footer-row p {
   line-height: 35px;
+  color: black;
+}
+
+.footer-row a {
+  color: black;
 }
 
 .footer-left .fa,
 .footer-right .fa {
   font-size: 20px;
-  color: #009688;
+  color: #4f5151;
   margin: 10px;
 }
 
@@ -436,15 +445,15 @@ hr {
   width: 40px;
   font-size: 20px;
   line-height: 40px;
-  border: 1px solid #009688;
+  border: 1px solid #4f5151;
   margin: 40px 5px 0;
-  color: #009688;
+  color: #4f5151;
   cursor: pointer;
   transition: 0.5s;
 }
 
 .social-links .fa:hover {
-  background: #009688;
+  background: #4f5151;
   color: #fff;
   transform: translateY(-7px);
 }
