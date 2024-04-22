@@ -436,6 +436,12 @@ hr {
   transform: translate(-50%, -50%);
 }
 
+.footer-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .social-links {
   text-align: center;
 }
