@@ -286,6 +286,10 @@ nav ul li a {
   transition: 1s;
 }
 
+.service-desc li {
+  list-style: none;
+}
+
 hr {
   background: #fff;
   height: 2px;
@@ -462,6 +466,28 @@ hr {
   background: #4f5151;
   color: #fff;
   transform: translateY(-7px);
+}
+
+/* Copyright Section Styling */
+.copyright {
+  text-align: center;
+  padding: 25px 0;
+  background-color: white; /* Elegant warm beige tone */
+  color: grey;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.copyright a {
+  color: grey;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  border-radius: 5px;
+}
+
+.copyright a:hover {
+  color: white; /* Lighter shade for hover effect */
+  background-color: grey;
 }
 
 @media screen and (max-width: 770px) {
