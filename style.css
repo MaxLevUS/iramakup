@@ -1978,3 +1978,37 @@ textarea:focus-visible {
     transform: translate(-50%, 50%);
   }
 }
+
+
+
+/* =========================================================
+   FIFTH SERVICE - PERSONAL MAKEUP LESSONS
+   Centers the fifth service card on desktop
+========================================================= */
+
+.service-card-centered {
+  flex: 0 0 calc(50% - 12.5px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Keep the lesson photo nicely positioned */
+
+.service-card-lessons img {
+  object-position: center center;
+}
+
+
+/* Tablet / mobile */
+
+@media screen and (max-width: 770px) {
+
+  .service-card-centered {
+    width: 100%;
+    flex: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+}
